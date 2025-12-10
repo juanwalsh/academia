@@ -22,12 +22,12 @@ export default function About() {
           {/* Coluna do Texto (Mobile: Segundo / Desktop: Primeiro) */}
           <div className="order-2 md:order-1 text-left">
             <h2 className="font-montserrat font-extrabold text-4xl sm:text-5xl text-[#1A1A1A] mb-8" aria-labelledby="quem-e-joelly">
-              Quem é <span className="text-[#FF6B00]">Joelly</span>
+              Quem é <span className="text-[#FF6B00]">Joelly Kerolin</span>
             </h2>
             
             <div className="space-y-6 font-inter text-lg text-gray-600">
               <p>
-                Joelly é licenciada em Educação Física pela Universidade Estácio (Cabo Frio, RJ) e atua há mais de 15 anos na área de saúde, estética e condicionamento físico. Desde muito jovem dedica-se ao bem-estar corporal, apaixonada pela profissão e pela transformação que o exercício proporciona.
+                Joelly Kerolin é licenciada em Educação Física pela Universidade Estácio Cabo Frio, RJ e atua há mais de 15 anos na área de saúde, estética e condicionamento físico. Desde muito jovem dedica-se ao bem-estar corporal, apaixonada pela profissão e pela transformação que o exercício proporciona.
               </p>
               
               <p>
