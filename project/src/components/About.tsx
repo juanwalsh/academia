@@ -31,7 +31,7 @@ export default function About() {
               </p>
               
               <p>
-                Especializou-se em diferentes áreas complementares para oferecer um atendimento completo e personalizado. Ao longo da carreira, ajudou diversas pessoas a aumentar autoestima, melhorar a saúde e adotar hábitos mais saudáveis — com resultados visíveis em pouco tempo graças ao seu método personalizado e humanizado.
+                Especializou-se em diferentes áreas complementares para oferecer um atendimento completo e personalizado. Ao longo da carreira, ajudou diversas pessoas a aumentar autoestima, melhorar a saúde e adotar hábitos mais saudáveis com resultados visíveis em pouco tempo graças ao seu método personalizado e humanizado.
               </p>
 
               <p>
