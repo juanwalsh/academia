@@ -1,4 +1,4 @@
-import { ArrowRight, Dumbbell, Flame, Heart, Target, Users, Zap } from 'lucide-react';
+import { Dumbbell, Flame, Heart, Target, Users, Zap } from 'lucide-react';
 
 const modalities = [
   {
@@ -74,13 +74,10 @@ export default function Modalities() {
                 <h3 className="font-montserrat font-bold text-2xl text-white mb-3">
                   {modality.title}
                 </h3>
-                <p className="font-inter text-gray-400 mb-6">
+                <p className="font-inter text-gray-400">
                   {modality.description}
                 </p>
-                <button className="group/btn flex items-center gap-2 text-[#FF6B00] font-montserrat font-bold hover:gap-3 transition-all duration-300">
-                  Saiba mais
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                {/* Botão Saiba Mais REMOVIDO */}
               </div>
             </div>
           ))}

@@ -21,7 +21,7 @@ export default function Navigation() {
               <Zap className="w-6 h-6 text-white" fill="white" />
             </div>
             <span className="font-montserrat font-extrabold text-xl text-white">
-              IronPulse <span className="text-[#FF6B00]">Fitness</span>
+              Consultoria <span className="text-[#FF6B00]">Fitness</span>
             </span>
           </div>
 
@@ -35,9 +35,14 @@ export default function Navigation() {
                 {item.label}
               </a>
             ))}
-            <button className="bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
-              Matricule-se
-            </button>
+            <a 
+              href="https://wa.me/5522992359977" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+            >
+              Falar com Joelly
+            </a>
           </div>
 
           <button
@@ -61,9 +66,14 @@ export default function Navigation() {
                   {item.label}
                 </a>
               ))}
-              <button className="bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 rounded-lg transition-all duration-300">
-                Matricule-se
-              </button>
+              <a 
+                href="https://wa.me/5522992359977"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 rounded-lg text-center transition-all duration-300"
+              >
+                Falar com Joelly
+              </a>
             </div>
           </div>
         )}

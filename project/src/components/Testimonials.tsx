@@ -5,21 +5,21 @@ const testimonials = [
     name: 'Ana Silva',
     role: 'Empresária',
     image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-    text: 'Em 3 meses perdi 12kg e ganhei muito mais disposição. A equipe da IronPulse é extremamente atenciosa e os treinos são desafiadores na medida certa.',
+    text: 'Em 3 meses perdi 12kg e ganhei muito mais disposição. O acompanhamento da Joelly é extremamente atencioso e os treinos são desafiadores na medida certa.',
     rating: 5
   },
   {
     name: 'Carlos Mendes',
     role: 'Engenheiro',
     image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
-    text: 'Melhor investimento que fiz em mim mesmo. Estrutura impecável, profissionais capacitados e um ambiente que realmente motiva você a superar seus limites.',
+    text: 'Melhor investimento que fiz em mim mesmo. Método impecável, profissionais capacitados e um suporte que realmente motiva você a superar seus limites.',
     rating: 5
   },
   {
     name: 'Marina Costa',
     role: 'Designer',
     image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
-    text: 'Treinava em casa e não via resultados. Aqui, com o acompanhamento profissional e a energia do lugar, minha performance triplicou. Recomendo muito!',
+    text: 'Treinava em casa e não via resultados. Agora, com a consultoria online e o planejamento correto, minha performance triplicou. Recomendo muito!',
     rating: 5
   }
 ];
@@ -33,7 +33,7 @@ export default function Testimonials() {
             O Que Dizem Nossos <span className="text-[#FF6B00]">Alunos</span>
           </h2>
           <p className="font-inter text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Histórias reais de transformação e superação
+            Histórias reais de transformação e superação com a consultoria
           </p>
         </div>
 

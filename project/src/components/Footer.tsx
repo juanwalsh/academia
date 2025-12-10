@@ -11,14 +11,15 @@ export default function Footer() {
                 <Zap className="w-6 h-6 text-white" fill="white" />
               </div>
               <span className="font-montserrat font-extrabold text-2xl">
-                IronPulse <span className="text-[#FF6B00]">Fitness</span>
+                Consultoria <span className="text-[#FF6B00]">Fitness</span>
               </span>
             </div>
             <p className="font-inter text-gray-400 mb-6">
-              Transformando vidas através do fitness de alta performance.
+              Transformando vidas através do fitness de alta performance e acompanhamento personalizado.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="bg-white/10 hover:bg-[#FF6B00] p-2 rounded-lg transition-all duration-300 transform hover:scale-110">
+              {/* Link do Instagram Atualizado */}
+              <a href="https://www.instagram.com/joelli120/" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-[#FF6B00] p-2 rounded-lg transition-all duration-300 transform hover:scale-110">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-[#FF6B00] p-2 rounded-lg transition-all duration-300 transform hover:scale-110">
@@ -70,7 +71,7 @@ export default function Footer() {
               <li>Segunda - Sexta: 5h - 23h</li>
               <li>Sábado: 7h - 20h</li>
               <li>Domingo: 8h - 18h</li>
-              <li className="text-[#FF6B00] font-bold pt-2">Plano Performance: 24h</li>
+              <li className="text-[#FF6B00] font-bold pt-2">Suporte Online: Diário</li>
             </ul>
           </div>
 
@@ -80,17 +81,19 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#FF6B00] flex-shrink-0 mt-1" />
                 <span className="font-inter text-gray-400">
-                  Av. Performance, 1000<br />
-                  Centro, São Paulo - SP
+                  Cabo Frio - RJ<br />
+                  Atendimento Presencial e Online
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#FF6B00] flex-shrink-0" />
-                <span className="font-inter text-gray-400">(11) 9999-9999</span>
+                <a href="https://wa.me/5522992359977" target="_blank" rel="noopener noreferrer" className="font-inter text-gray-400 hover:text-white transition-colors">
+                  (22) 99235-9977
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#FF6B00] flex-shrink-0" />
-                <span className="font-inter text-gray-400">contato@ironpulse.fit</span>
+                <span className="font-inter text-gray-400">contato@joelly.fit</span>
               </li>
             </ul>
           </div>
@@ -98,7 +101,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="font-inter text-gray-400">
-            © 2024 IronPulse Fitness. Todos os direitos reservados.
+            © 2024 Joelly Fitness. Todos os direitos reservados.
           </p>
         </div>
       </div>

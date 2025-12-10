@@ -1,6 +1,10 @@
 import { ArrowRight, Zap } from 'lucide-react';
 
 export default function FinalCTA() {
+  const phoneNumber = "5522992359977";
+  const message = "Olá! Vim do site e estou interessado em iniciar uma consultoria. Por onde começamos?";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <section className="relative py-32 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#000000] to-[#1A1A1A]">
@@ -25,10 +29,15 @@ export default function FinalCTA() {
           Dê o primeiro passo rumo à sua melhor versão. Junte-se a centenas de alunos que já transformaram suas vidas.
         </p>
 
-        <button className="group bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-12 py-6 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-[#FF6B00]/50 flex items-center gap-3 mx-auto">
-          Iniciar Matrícula Agora
+        <a 
+          href={whatsappLink}
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="group bg-[#FF6B00] hover:bg-[#FF8A33] text-white font-montserrat font-bold px-12 py-6 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-[#FF6B00]/50 flex items-center justify-center gap-3 mx-auto w-fit"
+        >
+          Preparado para iniciar consultoria agora?
           <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
-        </button>
+        </a>
 
         <p className="font-inter text-sm text-gray-400 mt-8">
           Sem taxas de adesão • Cancele quando quiser • Satisfação garantida
