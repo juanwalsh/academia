@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAtualizar texto sobre Joelly Kerolin e outras melhorias\n\n- Atualizado conteúdo da seção About com informações detalhadas sobre Joelly\n- Incluída formação e experiência profissional\n- Adicionado propósito e metodologia de trabalho\n- Melhorias gerais na interface e componentes\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(npm run build:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdicionar pasta data ao repositório para corrigir erro de build\n\n- Incluídos arquivos constants.js, index.js, pricing.js, projects.js e services.js\n- Corrige erro \"Could not resolve ../data from src/components/Footer.jsx\"\n- Arquivos necessários para build no Vercel\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nCorrigir imports para usar caminho explícito index.js\n\n- Alterados todos os imports de ''../data'' para ''../data/index.js''\n- Resolve erro de build no Vercel: \"Could not resolve ../data\"\n- Adicionado componente PlanCard.jsx ao repositório\n- Arquivos corrigidos: Footer, Services, PricingModal, PlanCard, ChatWidget, ProjectModal, Portfolio\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git init:*)"
+    ]
+  }
+}
