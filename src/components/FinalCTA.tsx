@@ -34,7 +34,7 @@ export default function FinalCTA() {
           target="_blank" 
           rel="noopener noreferrer"
           // MUDANÇA: lg:hover
-          className="group bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white font-montserrat font-bold px-12 py-6 rounded-xl text-xl transition-all duration-300 transform lg:hover:scale-105 lg:hover:shadow-2xl lg:hover:shadow-[#FF6B00]/50 flex items-center justify-center gap-3 mx-auto w-fit"
+          className="group bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white font-montserrat font-bold px-12 py-6 rounded-xl text-xl transition-all duration-300 shadow-lg shadow-[#FF6B00]/30 lg:hover:shadow-2xl lg:hover:shadow-[#FF6B00]/50 flex items-center justify-center gap-3 mx-auto w-fit"
         >
           QUERO MUDAR DE VIDA
           <ArrowRight className="w-6 h-6 lg:group-hover:translate-x-1 transition-transform" />

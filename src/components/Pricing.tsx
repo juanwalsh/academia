@@ -17,9 +17,9 @@ const plans = [
   {
     name: 'Presencial',
     fullName: 'Consultoria Presencial',
-    price: '249,90',
+    price: '300',
     popular: true,
-    ariaLabel: 'Plano Consultoria Presencial - R$ 249,90 por mês',
+    ariaLabel: 'Plano Consultoria Presencial - R$ 300 por mês',
     features: [
       'Resultados acelerados.',
       'Supervisão reduz risco de lesão.',
@@ -30,9 +30,9 @@ const plans = [
   {
     name: 'Híbrido',
     fullName: 'Presencial e On-line',
-    price: '299,90',
+    price: '350',
     popular: false,
-    ariaLabel: 'Plano Híbrido - R$ 299,90 por mês',
+    ariaLabel: 'Plano Híbrido - R$ 350 por mês',
     features: [
       'O melhor dos dois mundos.',
       'Acompanhamento contínuo.',
@@ -69,10 +69,10 @@ export default function Pricing() {
               role="article"
               aria-label={plan.ariaLabel}
               // MUDANÇA: lg:hover
-              className={`relative bg-black rounded-3xl p-6 md:p-8 transition-all duration-300 transform lg:hover:-translate-y-2 flex flex-col ${
+              className={`relative bg-black rounded-3xl p-6 md:p-8 transition-all duration-300 flex flex-col ${
                 plan.popular
                   ? 'border-4 border-[#FF6B00] shadow-2xl shadow-[#FF6B00]/30 md:scale-105'
-                  : 'border-2 border-gray-800 lg:hover:border-[#FF6B00]/50'
+                  : 'border-2 border-gray-800 lg:hover:border-[#FF6B00]/50 lg:hover:shadow-lg lg:hover:shadow-[#FF6B00]/20'
               }`}
             >
               {plan.popular && (
@@ -113,10 +113,10 @@ export default function Pricing() {
                 target="_blank"
                 rel="noopener noreferrer"
                 // MUDANÇA: lg:hover
-                className={`w-full py-3 md:py-4 rounded-xl font-montserrat font-bold text-base md:text-lg text-center transition-all duration-300 transform lg:hover:scale-105 block ${
+                className={`w-full py-3 md:py-4 rounded-xl font-montserrat font-bold text-base md:text-lg text-center transition-all duration-300 block ${
                   plan.popular
-                    ? 'bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white shadow-lg shadow-[#FF6B00]/50'
-                    : 'bg-white/10 lg:hover:bg-[#FF6B00] text-white border-2 border-white/20 lg:hover:border-[#FF6B00]'
+                    ? 'bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white shadow-lg shadow-[#FF6B00]/30 lg:hover:shadow-xl lg:hover:shadow-[#FF6B00]/50'
+                    : 'bg-white/10 lg:hover:bg-[#FF6B00] text-white border-2 border-white/20 lg:hover:border-[#FF6B00] lg:hover:shadow-lg lg:hover:shadow-[#FF6B00]/30'
                 }`}
               >
                 Assinar Plano

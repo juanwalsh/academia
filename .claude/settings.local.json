@@ -8,7 +8,18 @@
       "Bash(npm run build:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdicionar pasta data ao repositório para corrigir erro de build\n\n- Incluídos arquivos constants.js, index.js, pricing.js, projects.js e services.js\n- Corrige erro \"Could not resolve ../data from src/components/Footer.jsx\"\n- Arquivos necessários para build no Vercel\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nCorrigir imports para usar caminho explícito index.js\n\n- Alterados todos os imports de ''../data'' para ''../data/index.js''\n- Resolve erro de build no Vercel: \"Could not resolve ../data\"\n- Adicionado componente PlanCard.jsx ao repositório\n- Arquivos corrigidos: Footer, Services, PricingModal, PlanCard, ChatWidget, ProjectModal, Portfolio\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nProjeto inicial Academia Joelly Kerolin\n\n- Site completo da academia com informações sobre Joelly Kerolin\n- Personal trainer e terapeuta nutricional com mais de 10 anos de experiência\n- Seções: Hero, Sobre, Modalidades, Galeria, Depoimentos, Preços, CTA\n- Stack: React + TypeScript + Vite + Tailwind CSS\n- Integração com Supabase\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(dir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(node test-responsive.mjs:*)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright install chromium)",
+      "Bash(node test-swipe.mjs:*)",
+      "Bash(del \"C:\\\\Users\\\\Pichau\\\\Documents\\\\GitHub\\\\pixel-link\\\\src\\\\components\\\\academia\\\\project\\\\test-responsive.mjs\" \"C:\\\\Users\\\\Pichau\\\\Documents\\\\GitHub\\\\pixel-link\\\\src\\\\components\\\\academia\\\\project\\\\test-swipe.mjs\" \"C:\\\\Users\\\\Pichau\\\\Documents\\\\GitHub\\\\pixel-link\\\\src\\\\components\\\\academia\\\\project\\\\screenshot-*.png\" \"C:\\\\Users\\\\Pichau\\\\Documents\\\\GitHub\\\\pixel-link\\\\src\\\\components\\\\academia\\\\project\\\\swipe-*.png\")",
+      "Bash(node test-scroll-bug.mjs:*)"
     ]
   }
 }

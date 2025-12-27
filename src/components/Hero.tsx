@@ -29,7 +29,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               // MUDANÇA: 'lg:hover' adicionado em tudo que é interativo
-              className="w-full sm:w-auto group bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 lg:px-8 lg:py-4 rounded-lg text-base lg:text-lg transition-all duration-300 transform lg:hover:scale-105 lg:hover:shadow-2xl lg:hover:shadow-[#FF6B00]/50 flex items-center justify-center gap-2"
+              className="w-full sm:w-auto group bg-[#FF6B00] lg:hover:bg-[#FF8A33] text-white font-montserrat font-bold px-6 py-3 lg:px-8 lg:py-4 rounded-lg text-base lg:text-lg transition-all duration-300 shadow-lg shadow-[#FF6B00]/20 lg:hover:shadow-xl lg:hover:shadow-[#FF6B00]/40 flex items-center justify-center gap-2"
             >
               Iniciar Consultoria
               <ArrowRight className="w-5 h-5 lg:group-hover:translate-x-1 transition-transform" />
@@ -40,7 +40,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               // MUDANÇA: 'lg:hover' aqui também
-              className="w-full sm:w-auto group bg-transparent lg:hover:bg-white/10 text-white font-montserrat font-bold px-6 py-3 lg:px-8 lg:py-4 rounded-lg text-base lg:text-lg border-2 border-white transition-all duration-300 transform lg:hover:scale-105 flex justify-center"
+              className="w-full sm:w-auto group bg-transparent lg:hover:bg-white/10 text-white font-montserrat font-bold px-6 py-3 lg:px-8 lg:py-4 rounded-lg text-base lg:text-lg border-2 border-white transition-all duration-300 lg:hover:shadow-lg lg:hover:shadow-white/20 flex justify-center"
             >
               Tirar Dúvidas
             </a>
