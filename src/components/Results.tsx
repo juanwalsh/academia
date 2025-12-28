@@ -4,28 +4,48 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 const transformations = [
   {
     id: 1,
-    image: 'https://i.ibb.co/Kx37Ddk6/Whats-App-Image-2025-12-26-at-22-26-43-1.jpg',
+    image: 'https://i.ibb.co/Q71ddVFL/Whats-App-Image-2025-12-27-at-23-33-34-3.jpg',
     alt: 'Transformação 1 - Antes e Depois'
   },
   {
     id: 2,
-    image: 'https://i.ibb.co/3m2cZqZN/Whats-App-Image-2025-12-26-at-22-26-43.jpg',
+    image: 'https://i.ibb.co/8ghPKPDD/Whats-App-Image-2025-12-27-at-23-33-34-2.jpg',
     alt: 'Transformação 2 - Antes e Depois'
   },
   {
     id: 3,
-    image: 'https://i.ibb.co/kVYsJs8r/Whats-App-Image-2025-12-26-at-22-26-42-1.jpg',
+    image: 'https://i.ibb.co/ymz006jL/Whats-App-Image-2025-12-27-at-23-33-34-1.jpg',
     alt: 'Transformação 3 - Antes e Depois'
   },
   {
     id: 4,
-    image: 'https://i.ibb.co/0R30kR16/Whats-App-Image-2025-12-26-at-22-26-42.jpg',
+    image: 'https://i.ibb.co/7NQ3y3Dr/Whats-App-Image-2025-12-27-at-23-33-34.jpg',
     alt: 'Transformação 4 - Antes e Depois'
   },
   {
     id: 5,
-    image: 'https://i.ibb.co/SDrhvSLW/Whats-App-Image-2025-12-26-at-22-26-43-2.jpg',
+    image: 'https://i.ibb.co/PzsWFVBL/Whats-App-Image-2025-12-27-at-23-33-33.jpg',
     alt: 'Transformação 5 - Antes e Depois'
+  },
+  {
+    id: 6,
+    image: 'https://i.ibb.co/BH2YMjn9/Whats-App-Image-2025-12-27-at-23-33-35-3.jpg',
+    alt: 'Transformação 6 - Antes e Depois'
+  },
+  {
+    id: 7,
+    image: 'https://i.ibb.co/twVJ4MtF/Whats-App-Image-2025-12-27-at-23-33-35-2.jpg',
+    alt: 'Transformação 7 - Antes e Depois'
+  },
+  {
+    id: 8,
+    image: 'https://i.ibb.co/FkT343gL/Whats-App-Image-2025-12-27-at-23-33-35-1.jpg',
+    alt: 'Transformação 8 - Antes e Depois'
+  },
+  {
+    id: 9,
+    image: 'https://i.ibb.co/dRtTJ7N/Whats-App-Image-2025-12-27-at-23-33-35.jpg',
+    alt: 'Transformação 9 - Antes e Depois'
   }
 ];
 

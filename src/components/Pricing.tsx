@@ -2,11 +2,11 @@ import { Check, Star } from 'lucide-react';
 
 const plans = [
   {
-    name: 'Online', 
+    name: 'Online',
     fullName: 'Consultoria Online',
-    price: '69,90',
+    price: '69',
     popular: false,
-    ariaLabel: 'Plano Consultoria Online - R$ 69,90 por mês',
+    ariaLabel: 'Plano Consultoria Online - R$ 69 por mês',
     features: [
       'Avaliação inicial completa.',
       'Treinos com vídeos explicativos.',
@@ -17,9 +17,9 @@ const plans = [
   {
     name: 'Presencial',
     fullName: 'Consultoria Presencial',
-    price: '300',
+    price: '350',
     popular: true,
-    ariaLabel: 'Plano Consultoria Presencial - R$ 300 por mês',
+    ariaLabel: 'Plano Consultoria Presencial - R$ 350 por mês',
     features: [
       'Resultados acelerados.',
       'Supervisão reduz risco de lesão.',
@@ -30,9 +30,9 @@ const plans = [
   {
     name: 'Híbrido',
     fullName: 'Presencial e On-line',
-    price: '350',
+    price: '419',
     popular: false,
-    ariaLabel: 'Plano Híbrido - R$ 350 por mês',
+    ariaLabel: 'Plano Híbrido - R$ 419 por mês',
     features: [
       'O melhor dos dois mundos.',
       'Acompanhamento contínuo.',
